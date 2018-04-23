@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xhcy.pointsview.MainActivity">
+
+    <com.xhcy.library.PointsView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:pv_point_color="#ff0000"
+        app:pv_point_count="6"
+        app:pv_point_min_alpha="0.1"
+        app:pv_point_radius="10dp"
+        app:pv_point_space="20dp"
+        app:pv_point_switch_time="3000" />
+
+</android.support.constraint.ConstraintLayout>
